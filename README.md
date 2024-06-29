@@ -1,4 +1,3 @@
 # reciclapp
 
 Manual
-Description

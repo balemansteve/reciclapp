@@ -1,3 +1,7 @@
 # reciclapp
 
-Manual
+Tecnologias:
+HTML
+CSS 
+Javascript
+Bootstrap

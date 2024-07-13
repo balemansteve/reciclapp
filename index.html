@@ -17,7 +17,7 @@
                     class="d-inline-block align-text-top">
                 ReciclApp
             </a>
-            <ul class="navbar-nav bd-gutter">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
@@ -33,13 +33,87 @@
             </ul>
         </nav>
     </header>
-    <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
-        <figure class="text-center">
-            <blockquote class="blockquote">
-                <h1>¿Qué quieres reciclar?</h1>
-            </blockquote>
-        </figure>
+
+    <div class="container-xxl my-md-6">
+
+        <div class="row text-center">
+
+            <div class="col-md-6">
+                <h1 class="text-center my-4">ReciclApp</h1>
+                <p class="container px-4">Con ReciclApp contribuyes al cuidado del planeta sin moverte de
+                    tu hogar, y ademas recibes recompensas! Nuestra aplicación te conecta con servicios de
+                    recolección de reciclables, te brinda información sobre cómo clasificar tus desechos y te recompensa
+                    por
+                    tus
+                    esfuerzos ecológicos.</p>
+            </div>
+
+            <div class="col-md-6">
+                <h1 class="text-center my-4">¿Cómo funciona?</h1>
+                <p class="container px-4">
+                    El camión recolector pasará por tu barrio una vez por semana, solo debes llevarle tus residuos
+                    clasificados,
+                    seran pesados y agregados al sistema. Por cada kilo de residuos reciclables que entregues, recibirás
+                    puntos
+                    que podrás canjear por productos en comercios adheridos.
+                </p>
+            </div>
+
+        </div>
+
     </div>
+
+    <div class="container-xxl my-md-4">
+
+        <div class="text-center my-4">
+            <h1>¿Qué quieres reciclar?</h1>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-md-4">
+                <h2>Plásticos y Latas</h2>
+                <img src="imagenes/plastico y latas.JPG" alt="plasticos" width="150">
+                <div class="container">
+                    <div class="counter">
+                        <button class="btn btn-danger" onclick="decrement()">-</button>
+                        <span id="number">0</span>
+                        <button class="btn btn-success" onclick="increment()">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h2>Papeles y Cartones</h2>
+                <img src="imagenes/papel y carton.jpg" alt="papel" width="150">
+                <div class="container">
+                    <div class="counter">
+                        <button class="btn btn-danger" onclick="decrement()">-</button>
+                        <span id="number">0</span>
+                        <button class="btn btn-success" onclick="increment()">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h2>Vidrios</h2>
+                <img src="imagenes/vidrio.jpg" alt="vidrio" width="150">
+                <div class="container">
+                    <div class="counter">
+                        <button class="btn btn-danger" onclick="decrement()">-</button>
+                        <span id="number">0</span>
+                        <button class="btn btn-success" onclick="increment()">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center my-4">
+                <button class="btn btn-primary btn-lg">Reciclar</button>
+            </div>
+        </div>
+
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
